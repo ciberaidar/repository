@@ -21,7 +21,12 @@
         </style>
         <script src="jquery.min.js"></script>
         <script src="ace.js"></script>
-        <script>
+        
+        <button id="run" onclick='run();'>Run</button> 
+        <p>Output:</p><pre id="output">Waiting...</pre>
+        
+    </div>
+    <script>
         var code;
         
         $(function() {
@@ -66,10 +71,5 @@
 
 
         </script>
-        <button id="run" onclick='run();'>Run</button> 
-        <p>Output:</p><pre id="output">Waiting...</pre>
-        
-    </div>
-    
 </body>
 </html>
